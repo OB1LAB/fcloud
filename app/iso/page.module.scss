@@ -1,0 +1,40 @@
+.element {
+  width: 440px;
+  display: flex;
+  white-space: nowrap;
+  gap: 10px;
+  .program {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    &.iso {
+      gap: 20px;
+      justify-content: start;
+    }
+    .name {
+      padding-top: 5px;
+      font-weight: bold;
+    }
+    button {
+      width: 200px;
+      border: 0;
+      border-radius: 10px;
+      font-size: 16px;
+      padding: 5px 0;
+      cursor: pointer;
+    }
+    .about {
+      background: cyan;
+      &:hover {
+        background: #00d2d2;
+      }
+    }
+    .download {
+      background: #00bd00;
+      &:hover {
+        background: #00a200;
+      }
+    }
+  }
+}
