@@ -39,9 +39,9 @@ export default function Page({ params }) {
             <Link href={"/files"}>
               <button className={styles.back}>Назад</button>
             </Link>
-            <Link href={`/files/${file.file}`}>
+            <a href={`/files/${file.file}`}>
               <button>Скачать</button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

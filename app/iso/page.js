@@ -54,9 +54,9 @@ export default function Home() {
               <div className={styles.program}>
                 <div className={styles.name}>Название: {item.name}</div>
                 <div className={styles.name}>Размер: {item.size}</div>
-                <Link href={`/iso/${item.name}`}>
+                <a href={`/iso/${item.name}`}>
                   <button className={styles.download}>Скачать</button>
-                </Link>
+                </a>
               </div>
             </div>
           );
